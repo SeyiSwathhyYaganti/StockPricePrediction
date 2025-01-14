@@ -3,6 +3,7 @@ from pydantic import BaseModel
 import numpy as np
 from models.model import load_model, predict
 
+
 app = FastAPI()
 model = load_model()
 #Define the request model for input validation

@@ -6,6 +6,7 @@ from config import Config
 from src.preprocessing import load_data, preprocess_data, split_data
 import logging
 
+
 logging.basicConfig(
     level=logging.INFO,  # Set the logging level (DEBUG, INFO, WARNING, ERROR, CRITICAL)
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",  # Log format
